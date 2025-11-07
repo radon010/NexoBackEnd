@@ -1,0 +1,32 @@
+//*src/
+//  ├── components/
+// │    ├── GenericButton.jsx
+// │    ├── GenericInput.jsx
+//│    ├── ExampleButtonUsage.jsx
+// │    └── ExampleInputUsage.jsx/
+
+{
+  "button": {
+    "label": "Enviar formulario",
+    "type": "button",
+    "style": {
+      "backgroundColor": "#4CAF50",
+      "color": "#fff",
+      "padding": "10px 20px",
+      "border": "none",
+      "borderRadius": "5px",
+      "cursor": "pointer"
+    }
+  },
+  "input": {
+    "name": "email",
+    "placeholder": "Introduce tu correo",
+    "type": "email",
+    "style": {
+      "padding": "8px",
+      "borderRadius": "4px",
+      "border": "1px solid #ccc",
+      "width": "250px"
+    }
+  }
+}
